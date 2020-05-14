@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Contact extends React.Component {
+class Contact extends Component {
   render() {
     const { data } = this.props;
     const admissionDate = new Date(data.admissionDate).toLocaleDateString();
